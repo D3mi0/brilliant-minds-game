@@ -11,7 +11,7 @@ var theme
 
 function preload(){
 //loading boss music
-bossmusic = loadSound("/assets/boss fight.mp3")
+bossmusic = loadSound("/assets/bossfight.mp3")
 
 //loading background
 backgroundImg = loadImage("/assets/background.png")

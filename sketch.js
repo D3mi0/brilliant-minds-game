@@ -11,23 +11,23 @@ var theme
 
 function preload(){
 //loading boss music
-bossmusic = loadSound("/assets/bossfight.mp3")
+bossmusic = loadSound("bossfight.mp3")
 
 //loading background
-backgroundImg = loadImage("/assets/background.png")
+backgroundImg = loadImage("background.png")
 
 //loading asteroids
-asteroidImg = loadImage("/assets/asteroid.png")
-alienBossImg = loadImage("/assets/saul.jpg")
+asteroidImg = loadImage("asteroid.png")
+alienBossImg = loadImage("saul.jpg")
 
 
 //loading amogus
-astronautImg = loadImage("/assets/amogus.png")
+astronautImg = loadImage("amogus.png")
 }
 
 function setup() {
 //loadinging music
-theme = loadSound("/assets/theme.mp3", loaded)
+theme = loadSound("theme.mp3", loaded)
 //loading canvas
 createCanvas(windowWidth, windowHeight)
 

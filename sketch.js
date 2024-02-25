@@ -37,7 +37,7 @@ backround.addImage(backgroundImg)
 backround.scale=1.4
 
 //scrolling background
-backround.velocityX=-30
+backround.velocityX=-15
 
 //making amogus
 astronaut = createSprite(windowWidth/19, windowHeight/2, 20, 50)
@@ -91,7 +91,7 @@ health.x=healthbackround.x-(bosshits*33.333)
    fill("white")
    textSize(30)
    text("Welcome to ______", windowWidth/2-windowWidth/11, windowHeight/2-30)
-   text("Use the cursor to control the height of the astronaut.", windowWidth/2-windowWidth/5, windowHeight/2+30)
+   text("Use the cursor to control the height of the astronaut, use space to shoot laser.", windowWidth/2-windowWidth/5, windowHeight/2+30)
    text("Press space to continue!", windowWidth/2-windowWidth/11, windowHeight/2+80)
 
  if (keyWentDown("SPACE")){
@@ -230,7 +230,7 @@ function spawnAsteroids(){
 function shooting(){
  if (keyWentDown("SPACE")){
  beam = createSprite(astronaut.x+10, astronaut.y, 30, 20)
- beam.velocityX = 130
+ beam.velocityX = 65
  beam.shapeColor = "purple"
  beamGroup.add(beam)
  beam.debug=true

@@ -210,7 +210,7 @@ backround.velocityX=-30-(score*2)
 }
 
 function spawnAsteroids(){
- if ((frameCount % 25 === 0)&&score<=10){
+ if ((frameCount % 35 === 0)&&score<=10){
    if (gamestate===play){
     var asteroid = createSprite(windowWidth-windowWidth/20, (random(windowHeight-windowHeight/11, 30)), 80, 80)
     asteroid.velocityX=-windowWidth/25

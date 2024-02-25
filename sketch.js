@@ -91,7 +91,7 @@ health.x=healthbackround.x-(bosshits*33.333)
    fill("white")
    textSize(30)
    text("Welcome to ______", windowWidth/2-windowWidth/11, windowHeight/2-30)
-   text("Use the cursor to control the height of the astronaut, use space to shoot laser.", windowWidth/2-windowWidth/5, windowHeight/2+30)
+   text("Use the cursor to control the height of the astronaut, use space to shoot lasers.", windowWidth/2-windowWidth/5, windowHeight/2+30)
    text("Press space to continue!", windowWidth/2-windowWidth/11, windowHeight/2+80)
 
  if (keyWentDown("SPACE")){
